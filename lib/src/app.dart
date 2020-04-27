@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/login_screen.dart';
 
 class App extends StatelessWidget {
 
@@ -6,7 +7,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Log me in',
       home: Scaffold(
-        body: Text('login form goes here'),
+        body: LoginScreen(),
       )
 
     );
